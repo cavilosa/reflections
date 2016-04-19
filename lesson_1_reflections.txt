@@ -1,0 +1,65 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    It is shown in the comparison between 2 documents. 
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    You can control your thoughts, return to previous more successful versions
+	and never lose any data or a piece of a code. You can compare versions.
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    You get to choose when to save the files. Auto save is good if you don't change the 
+	document all the time at different places. For programming it is essential to be 
+	able to control your versions and changes not depending on time frame or pause or
+	number of lines written, but relaying on human judgement on whether it is time to 
+    save commit or not yet. 	
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    Course programming files differ from other ones, to make a program work we need more
+	then just 1 file. So it is essential to save all the files and show all the differences.
+	While Doc files are just documents that aren't multi-folded-folded volumes. 
+
+How can you use the commands git log and git diff to view the history of files?
+
+    Git log will show all the commits with the author, time and the comment. 
+	gitit log --stat will show the statistics about which file have change in each commit.
+	git diff 1stID 2ndID will show the differnces between 2 commits. what was changed and
+	all supporting information. 
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    You can always come back!!!! You can make not only little changes at a time, but change
+	the whole structure! You can always roll back.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    Explore its options more. 
+	
+	
+Git Errors and Warnings Solution
+
+Should not be doing an octopus
+Octopus is a strategy Git uses to combine many different versions of code together. 
+This message can appear if you try to use this strategy in an inappropriate situation.
+
+You are in 'detached HEAD' state
+HEAD is what Git calls the commit you are currently on. 
+You can “detach” the HEAD by switching to a previous commit, which we’ll see in the next video. 
+Despite what it sounds like, it’s actually not a bad thing to detach the HEAD. 
+Git just warns you so that you’ll realize you’re doing it.
+
+Panic! (the 'impossible' happened)
+This is a real error message, but it’s not output by Git. 
+Instead it’s output by GHC, the compiler for a programming language called Haskell. 
+It’s reserved for particularly surprising errors!
+
+Takeaway We hope these errors and warnings amused you as much as they amused us! 
+Now that you know what kind of errors Git can throw, you’re ready to start checking out previous versions of files with Caroline.	
