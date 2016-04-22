@@ -7,6 +7,7 @@ for version conrol.
 How is the staging area different from the working directory and the repository?
 What value do you think it offers?
 
+
 Staging area is between the wd and repository. It allows to creak transitional versions
 of files and only then save them or not. It is like a safe  where you can keep your cash
 before depositing it to the bank or spending it on a cool tv. 
@@ -15,13 +16,45 @@ before depositing it to the bank or spending it on a cool tv.
 How can you use the staging area to make sure you have one commit per logical
 change?
 
+You can compare wd and staging area using git diff /no arguments/ to compare changes.
+and git diff --staged to compare staging area and recent commit differences before 
+commiting. 
+when git diff commans is empty - means there ar no changes to commit. 
+
+
+
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
 
+Branches can help create different versions of same document, store these files 
+and modify them. You can have master branch and a development one to work on.
+You can share one of them and work on the other one.
+you can switch to something else on the project if you got tired or bored. 
+
+
+
 How do the diagrams help you visualize the branch structure?
+
+Pretty straight-forward. You can see existing branches and commits that do not
+belong o any of the branches - unreachable ones. They need to belong 
+to a branch to be reachable.
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
+The result is the code of 2 branches altogether and the commits are shown in order of their
+time creation. Merging branches we can combine work of many developers at one project. 
+And the diagram represents is the way it is. 
+
+
+
 What are the pros and cons of Gitâ€™s automatic merging vs. always doing merges
 manually?
+
+Automatic merges save time!!!! But manually you might make the code better and 
+more accurate and efficient. 
+
+
+
+
+
