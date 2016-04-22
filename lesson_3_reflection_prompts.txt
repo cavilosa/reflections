@@ -6,3 +6,10 @@ When you are at somebody else's computer.
 Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
 Not everything might be needed in wd. 
 
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+
+Fork work only on Github, is to clone a repository and use it as you want. 
+Clone works both in Github and local. 
+Branch works on a specific repository on your local. 
+
+
